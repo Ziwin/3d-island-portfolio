@@ -28,8 +28,8 @@ const Home = () => {
   const adjustPlaneForScreenSize = () => {
     let screenScale, screenPosition;
     if (window.innerWidth < 768) {
-      screenScale = [0.2, 0.2, 0.2];
-      screenPosition = [0, -6.75, -7];
+      screenScale = [0.5, 0.5, 0.5];
+      screenPosition = [0, -5.5, -7];
     } else {
       screenScale = [0.8, 0.8, 0.8];
       screenPosition = [0, -5.75, -7];
